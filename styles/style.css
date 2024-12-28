@@ -1,0 +1,112 @@
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #1a1a40;
+}
+h3{
+    color: #c7be60;
+    text-transform: uppercase;
+    text-align: center;
+}
+.inner-circle{
+    margin: 25px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.inner-circle img{
+     width: 150px;
+}.first-paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    color: #dbdbdb;
+}.second-paragraph{
+    color: #a4aeb3;
+
+}
+.grid {
+    background-color: #6a95c0; 
+    display: flex;
+    gap: 7px;
+    margin: 10px;
+    border: solid;
+    border-color: #959595;
+    height: 50px;
+    /* overflow: hidden; */
+    transition: transform 0.5s ease;
+}
+.grid:hover{
+    transform: scale(1.03);
+}
+.grid img{
+    cursor: pointer;
+    height: 100%;
+    width: 40px;
+}.grid p{
+    cursor: pointer;
+    color: black;
+}
+
+
+
+.meat{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgb(54, 54, 54); */
+    background-color: #c5bca9;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 50px;
+    position: relative;
+    
+}.talk{
+    width: 500px;
+    /* color: rgb(221, 221, 221); */
+    color: rgb(54, 54, 54);
+}.talk h2{
+    margin-left: 20px;
+}.talk p{
+    margin-left: 20px;
+}.us{
+    margin-left: 20px;
+    background-color: rgb(1, 82, 1);
+    width: 230px;
+    height: 30px;
+    margin-bottom: 10px;
+}.us p{
+    text-align: center;
+    padding-right: 15px;
+    padding-top: 5px;
+    color: rgb(221, 221, 221);
+    font-weight: bolder;
+}.hit{
+    align-items: center;
+    display: flex;
+}.hit img{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}.hit p{
+    padding-left: 10px;
+}.style{
+    list-style: none;
+    /* color: rgb(221, 221, 221); */
+    color: rgb(54, 54, 54);
+}.dem{
+    display: flex;
+    width: 150px;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* position: absolute; */
+}.diy{
+    overflow: hidden;
+}.diy img{
+    transition: transform 0.3s ease;
+    width: 30px;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}.diy img:hover{
+    transform: scale(1.2);
+}

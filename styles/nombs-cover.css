@@ -1,0 +1,54 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-image: url('../images/nombs-profile.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+body::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.button {
+  position: relative; 
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  top: -30px; 
+  left: 10px;
+  z-index: 2;
+}
+.button img{
+  border-radius: 25px;
+  width: 65px;
+}
+.button button{
+  background-color: #1a1a40;
+  border: 2.5px solid rgb(184, 135, 13);
+  border-radius: 30px;
+  padding: 0px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.button p{
+  color: rgb(178, 195, 210);
+}
+.button button:hover {
+  background-color: rgb(108, 108, 108);
+  
+}.button button:active{
+  background-color: darkblue;
+  border: 5px solid goldenrod;
+}
